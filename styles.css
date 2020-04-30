@@ -1,0 +1,184 @@
+#wrapper {
+  max-width: 1024px;
+}
+
+.hilight {
+  background: linear-gradient(transparent 64%, rgba(0, 186, 134, 0.48) 36%);
+}
+
+.btn--top {
+  background-color: rgba(0, 186, 134, 0.64);
+}
+.headcopy {
+  line-height: 1.5;
+  font-size: 4rem;
+  letter-spacing: 0.16em;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+/* btn-container */
+.btn-container--3 {
+  padding-bottom: 8rem;
+}
+.btn-container__headcopy {
+  color: #222222;
+  text-align: center;
+  padding-bottom: 1.2rem;
+}
+.btn-area__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.get-app-btn {
+  width: 12rem;
+}
+.get-app-btn:hover {
+  opacity: 0.6;
+}
+
+/* hero */
+#hero {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+}
+.hero__inner {
+  height: 32rem;
+  background: linear-gradient(
+    to top,
+    rgba(250, 206, 51, 1),
+    rgba(250, 206, 51, 0.6)
+  );
+  position: relative;
+  overflow: hidden;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+}
+.hero__headcopy {
+  line-height: 1.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero__app-name {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  padding-left: 0.6rem;
+}
+/* device */
+.hero__img {
+  display: flex;
+  justify-content: center;
+}
+.hero__device {
+  width: 20rem;
+  position: absolute;
+  bottom: -20rem;
+  filter: drop-shadow(0 0.2rem 0.12rem rgba(0, 0, 0, 0.12));
+}
+
+/* intro */
+#intro {
+  padding: 10rem 0;
+}
+.intro__panel {
+  text-align: center;
+  padding: 8rem 0 4rem;
+}
+.intro__panel p {
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 2.8rem;
+}
+.hilight--fw700 {
+  font-weight: 700;
+}
+
+/* benefits */
+#benefits {
+  padding-top: 3rem;
+}
+.content {
+  padding: 2rem 0;
+  margin-bottom: 8rem;
+}
+.content--1,
+.content--3 {
+  background-color: #f8f9fa;
+}
+.heading-container {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.content__num {
+  font-family: "Titillium Web";
+  font-style: italic;
+  font-size: 4rem;
+  font-weight: 500;
+}
+.content__heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+.benefit__img {
+  position: relative;
+  margin-bottom: 8rem;
+}
+.img {
+  position: absolute;
+  bottom: 0;
+  width: 16rem;
+  z-index: 2;
+}
+.bg {
+  width: 32rem;
+  margin-left: 2rem;
+}
+.img--sport_1 {
+  left: 0;
+}
+.img--sport_2 {
+  right: 0;
+}
+.img--sport_3 {
+  left: 0;
+}
+
+.has-drop-shadow {
+  filter: drop-shadow(0 0.2rem 0.12rem rgba(0, 0, 0, 0.12));
+}
+.content__panel--has-border {
+  width: 24rem;
+  background-color: #fff;
+  border: 7px solid #f8f9fa;
+  border-radius: 1rem;
+  padding: 1.6rem 0rem 0.4rem 1rem;
+  margin: 2.4rem auto 2.8rem;
+}
+.panel__list {
+  display: flex;
+  align-items: flex-start;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.icon__check {
+  flex-shrink: 0;
+  width: 2.8rem;
+  margin-top: 0.5rem;
+  margin-right: 0.8rem;
+}
+
+.check_material1 {
+  stroke: #e4e4e4;
+  fill: none;
+}
+
+.check_material2 {
+  stroke: #00ba86;
+  fill: none;
+}
