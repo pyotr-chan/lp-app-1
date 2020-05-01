@@ -8,10 +8,11 @@
 
     <meta property="og:url" content="https://lp-sample-app-1.netlify.app/" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="アプリリリースのお知らせ" />
-    <meta property="og:description" content="新アプリ提供開始！" />
+    <meta property="og:title" content="Amazing Fitness" />
+    <meta property="og:description" content="Your New Health Platform" />
+    <meta property="og:image" content="assets/bg_tree" />
     <meta name="twitter:card" content="summary_large_image" />
-    <title>New App Release!</title>
+    <title>Amazing Fitness|Your New Health Platform</title>
     <link
       href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900|Titillium+Web:200,300,400,600,700&display=swap"
       rel="stylesheet"
@@ -332,22 +333,17 @@
       </section>
 
       <footer id="footer">
+        <a class="btn--top" href="#page-top">
+          <span
+            class="iconify"
+            data-icon="ic:round-keyboard-arrow-up"
+            data-inline="false"
+          ></span>
+        </a>
+
         <!-- get-app -->
         <div class="btn-container btn-container--3">
           <h2 class="headcopy">Get started</h2>
-          <!-- <p class="btn-container__headcopy">
-            <span
-              class="iconify"
-              data-icon="emojione:sparkles"
-              data-inline="false"
-            ></span>
-            download now
-            <span
-              class="iconify"
-              data-icon="emojione:sparkles"
-              data-inline="false"
-            ></span>
-          </p> -->
           <div class="btn-area__content">
             <a href="#" class="get-app-btn get-app-btn--android">
               <img src="assets/get_app_android.png" alt="android" />
@@ -370,19 +366,18 @@
     ></script>
     <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script src="https://static.cld.navitime.jp/passstorage/js/common/rellax.min.js"></script>
     <script>
       new WOW().init();
 
-      // var goTop = $(".btn--top");
-      // goTop.hide();
-      // $(window).scroll(function () {
-      //   if ($(this).scrollTop() > 200) {
-      //     goTop.fadeIn();
-      //   } else {
-      //     goTop.fadeOut();
-      //   }
-      // });
+      var goTop = $(".btn--top");
+      goTop.hide();
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+          goTop.fadeIn();
+        } else {
+          goTop.fadeOut();
+        }
+      });
     </script>
   </body>
 </html>
